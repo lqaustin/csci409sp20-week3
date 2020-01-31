@@ -1,0 +1,51 @@
+body{
+	background-color: #aaaaaa;
+	font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+table.stocks  {
+	width: 100%;
+	text-align: center;
+}
+
+tr.stocks:nth-child(even) {
+	background-color: #efefef;
+}
+
+tr.stocks:nth-child(odd) {
+	background-color: #3e3e3e;
+	color: #ffffff;
+}
+
+td.money:before {
+	content: '\0024';
+}
+
+p.dropcap::first-letter {
+	color: #903;
+	float: left;
+	font-size: 40px;
+	line-height: 45px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+p.smalltext {
+	font-size: .6em;
+}
+
+input.textinput {	
+	background-color: #ffffff;
+	border-color: #dbdbdb;
+	border-radius: 4px;
+	color: inherit;
+}
+
+input:active, input:focus {
+	border-color: #3273dc;
+}
+
